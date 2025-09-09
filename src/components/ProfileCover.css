@@ -1,0 +1,132 @@
+.profile-cover-area {
+  background-color: #fff;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+
+.cover-photo-container {
+  height: 312px;
+  overflow: hidden;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.cover-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.profile-info-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 15px 20px;
+  margin-top: -96px;
+}
+
+.profile-picture-container {
+  border: 4px solid #fff;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 170px;
+  height: 170px;
+  margin-bottom: 10px;
+}
+
+.profile-picture-large {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.user-details {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.user-details h1 {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 0;
+  color: #050505;
+}
+
+.user-details p {
+  font-size: 17px;
+  color: #65676b;
+  margin: 5px 0 0;
+}
+
+.profile-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.add-story-button,
+.edit-profile-button {
+  padding: 10px 15px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  border: none;
+}
+
+.add-story-button {
+  background-color: #1877f2;
+  color: #fff;
+}
+
+.add-story-button:hover {
+  background-color: #166fe5;
+}
+
+.edit-profile-button {
+  background-color: #e4e6eb;
+  color: #050505;
+}
+
+.edit-profile-button:hover {
+  background-color: #d8dadf;
+}
+
+@media (max-width: 768px) {
+  .cover-photo-container {
+    height: 180px;
+  }
+
+  .profile-info-section {
+    margin-top: -60px;
+    padding-bottom: 15px;
+  }
+
+  .profile-picture-container {
+    width: 120px;
+    height: 120px;
+  }
+
+  .user-details h1 {
+    font-size: 24px;
+  }
+
+  .user-details p {
+    font-size: 15px;
+  }
+
+  .profile-actions {
+    flex-direction: column;
+    width: 100%;
+    padding: 0 15px;
+  }
+
+  .add-story-button,
+  .edit-profile-button {
+    justify-content: center;
+    width: 100%;
+  }
+}

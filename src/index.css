@@ -1,0 +1,22 @@
+/* Basic Reset & Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  background-color: #f0f2f5; /* Light gray background, typical for Facebook */
+  color: #050505; /* Dark text color */
+  line-height: 1.34;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Ensure the root div for React also takes up space */
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}

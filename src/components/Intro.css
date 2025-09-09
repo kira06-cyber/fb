@@ -1,0 +1,65 @@
+.intro-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.intro-card h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: #050505;
+}
+
+.bio {
+  font-size: 15px;
+  color: #050505;
+  margin-bottom: 15px;
+}
+
+.details-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.details-list li {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  color: #65676b;
+  margin-bottom: 10px;
+}
+
+.details-list li i {
+  margin-right: 10px;
+  font-size: 18px;
+  color: #65676b;
+}
+
+.edit-details-button,
+.add-hobbies-button,
+.add-featured-button {
+  width: 100%;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  background-color: #e4e6eb;
+  color: #050505;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 8px;
+}
+
+.edit-details-button:hover,
+.add-hobbies-button:hover,
+.add-featured-button:hover {
+  background-color: #d8dadf;
+}
+
+.add-featured-button {
+  margin-bottom: 0;
+}

@@ -1,0 +1,78 @@
+.create-post-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  padding: 15px;
+}
+
+.create-post-top {
+  display: flex;
+  align-items: center;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #e4e6eb;
+}
+
+.create-post-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.create-post-input {
+  flex-grow: 1;
+  border: none;
+  background-color: #f0f2f5;
+  padding: 10px 15px;
+  border-radius: 20px;
+  font-size: 16px;
+  color: #050505;
+}
+
+.create-post-input::placeholder {
+  color: #65676b;
+}
+
+.create-post-bottom {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10px;
+}
+
+.create-post-button {
+  background: none;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #65676b;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: background-color 0.2s;
+}
+
+.create-post-button:hover {
+  background-color: #f0f2f5;
+}
+
+.video-icon {
+  color: #f02849;
+}
+
+.photo-icon {
+  color: #45bd62;
+}
+
+.feeling-icon {
+  color: #f7b928;
+}
+
+@media (max-width: 500px) {
+  .create-post-button span {
+    display: none;
+  }
+}
